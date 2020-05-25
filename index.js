@@ -1,23 +1,23 @@
-function wakeDog() {
-  console.log("Wake Byron the poodle");
+function wakeDog(dogName, dogBreed) {
+  console.log(`Wake ${dogName} the ${dogBreed}`);
 }
 
-function leasheDog() {
-  console.log("Wake Byron the poodle");
+function leasheDog(dogName, dogBreed) {
+  console.log(`Leash ${dogName} the ${dogBreed}`);
 }
 
-function walkDog() {
-  console.log("Wake Byron the poodle");
+function walkDog(dogName, dogBreed) {
+  console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
 }
 
-function throwFrisbee() {
-  console.log("Wake Byron the poodle");
+function throwFrisbee(dogName, dogBreed) {
+  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
 }
 
-function walkHome() {
-  console.log("Wake Byron the poodle");
+function walkHome(dogName, dogBreed) {
+  console.log(`Walk home with ${dogName} the ${dogBreed}`);
 }
 
-function unleashDog() {
-  console.log("Wake Byron the poodle");
+function unleashDog(dogName, dogBreed) {
+  console.log(`Unleash ${dogName} the ${dogBreed}`);
 }
