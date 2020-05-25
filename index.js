@@ -2,7 +2,7 @@ function wakeDog(dogName, dogBreed) {
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
 
-function leasheDog(dogName, dogBreed) {
+function leashDog(dogName, dogBreed) {
   console.log(`Leash ${dogName} the ${dogBreed}`);
 }
 
@@ -21,3 +21,6 @@ function walkHome(dogName, dogBreed) {
 function unleashDog(dogName, dogBreed) {
   console.log(`Unleash ${dogName} the ${dogBreed}`);
 }
+
+var routine = [wakeDog, leashDog, walkDog, throwFrisbee, walkHome, unleashDog]
+
