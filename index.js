@@ -32,4 +32,4 @@ const routine = [wakeDog, leashDog, walkDog, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog(dogName, dogBreed){
    return routine.map(f => f(dogName, dogBreed))
-}
+} 
