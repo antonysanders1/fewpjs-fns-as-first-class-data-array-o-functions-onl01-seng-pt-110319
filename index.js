@@ -32,7 +32,7 @@ var routine = [wakeDog, leashDog, walkDog, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog(dogName, dogBreed){
   for (let i = 0; i < routine.length; i++) {
-    console.log(routine);
+    console.log(routine(dogName, dogBreed));
   }
  
   return routine(dogName, dogBreed);
