@@ -34,8 +34,9 @@ function exerciseDog(dogName, dogBreed){
    let i = 0; // the initialization moved OUTSIDE the body of the loop!
   while (i < routine.length) {
     //console.log(routine[i](dogName, dogBreed));
+    return routine[i](dogName, dogBreed);
     i++; // the iteration moves INSIDE the body of the loop!
   }
  
-  return routine[i](dogName, dogBreed);
+  return routine;
 } 
