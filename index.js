@@ -26,8 +26,8 @@ var routine = [wakeDog, leashDog, walkDog, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog(dogName, dogBreed){
   for (let i = 0; i < routine.length; i++) {
-    console.log();
+    console.log(routine);
   }
  
-  return gifts;
+  return routine;
 }
