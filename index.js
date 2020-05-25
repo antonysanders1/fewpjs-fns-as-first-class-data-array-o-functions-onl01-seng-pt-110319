@@ -10,22 +10,22 @@ function leashDog(dogName, dogBreed) {
 
 function walkDog(dogName, dogBreed) {
   console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
-  return
+  return `Walk to the park with ${dogName} the ${dogBreed}`
 }
 
 function throwFrisbee(dogName, dogBreed) {
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
-  return
+  return `Throw the frisbee for ${dogName} the ${dogBreed}`
 }
 
 function walkHome(dogName, dogBreed) {
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
-  return
+  return `Walk home with ${dogName} the ${dogBreed}`
 }
 
 function unleashDog(dogName, dogBreed) {
   console.log(`Unleash ${dogName} the ${dogBreed}`);
-  return
+  return `Unleash ${dogName} the ${dogBreed}`
 }
 
 var routine = [wakeDog, leashDog, walkDog, throwFrisbee, walkHome, unleashDog]
