@@ -35,5 +35,5 @@ function exerciseDog(dogName, dogBreed){
     console.log(routine);
   }
  
-  return routine;
+  return routine(dogName, dogBreed);
 }
