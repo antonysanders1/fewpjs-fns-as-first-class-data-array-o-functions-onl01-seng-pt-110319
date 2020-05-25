@@ -8,7 +8,7 @@ function leashDog(dogName, dogBreed) {
   return `Leash ${dogName} the ${dogBreed}`
 }
 
-function walkDog(dogName, dogBreed) {
+function walkToPark(dogName, dogBreed) {
   console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
   return `Walk to the park with ${dogName} the ${dogBreed}`
 }
@@ -28,7 +28,7 @@ function unleashDog(dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`
 }
 
-const routine = [wakeDog, leashDog, walkDog, throwFrisbee, walkHome, unleashDog]
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog(dogName, dogBreed){
    let i = 0; // the initialization moved OUTSIDE the body of the loop!
