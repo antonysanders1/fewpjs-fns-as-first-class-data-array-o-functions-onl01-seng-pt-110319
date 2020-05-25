@@ -38,5 +38,5 @@ function exerciseDog(dogName, dogBreed){
     i++; // the iteration moves INSIDE the body of the loop!
   }
  
-  return routine.all;
+  return routine;
 } 
