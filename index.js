@@ -25,7 +25,7 @@ function unleashDog(dogName, dogBreed) {
 var routine = [wakeDog, leashDog, walkDog, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog(dogName, dogBreed){
-  for (let i = 0; i < gifts.length; i++) {
+  for (let i = 0; i < routine.length; i++) {
     console.log(`Wrapped ${gifts[i]} and added a bow!`);
   }
  
